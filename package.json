@@ -2,7 +2,7 @@
   "name": "sd-0x-project-trybewallet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gabrielhdn.github.io/wallet",
+  "homepage": "https://gabrielhdn.github.io/my-wallet",
   "engines": {
     "node": "16"
   },
