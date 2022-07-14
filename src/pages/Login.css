@@ -1,0 +1,120 @@
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.img-section {
+  width: 50vw;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(29,53,87,1) 0%, rgba(168,218,220,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.login-img {
+  width: 30em;
+}
+
+.form-page {
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f5fc;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 29.5em;
+  width: 23em;
+}
+
+.title-img {
+  width: 16em;
+}
+
+.form {
+  height: 12em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+}
+
+.form input {
+  width: 80%;
+  height: 35px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  border-left: 3px solid #1d3557;
+  padding-left: 6px;
+  background-color: #f6f5fc;
+  font-size: 1em;
+  color: #1d3557;
+  transition: all 0.3s ease;
+}
+
+.form input::placeholder {
+  color: #678788;
+  font-weight: 400;
+}
+
+.email-input:focus ~ .underline-1 {
+  transform: scaleX(1);
+}
+
+.password-input:focus ~ .underline-2 {
+  transform: scaleX(1);
+}
+
+.underline {
+  width: 78.7%;
+  position: absolute;
+  height: 1px;
+  top: 67px;
+  right: 38px;
+  background-color: #1d3557;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.35s ease;
+}
+
+.underline-2 {
+  top: 132px;
+}
+
+.login-button {
+  margin: 10px;
+  width: 80%;
+  height: 45px;
+  font-size: 1em;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgba(69,123,157,1) 0%, rgba(33,70,121,1) 100%);
+  color: #f6f5fc;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background: #e65661;
+}
+
+.login-button:disabled {
+  background: #e4ebeb;
+  color: gray;
+}

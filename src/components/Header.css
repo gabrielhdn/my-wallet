@@ -1,0 +1,39 @@
+.header {
+  height: 16vh;
+  width: 100%;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #f6f5fc; */
+  /* color: rgba(29,53,87,1); */
+  color: #f6f5fc;
+  background: linear-gradient(-45deg, rgba(29,53,87,1), rgb(29, 72, 122), rgb(44, 91, 145), rgb(49, 125, 153));
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.header-img {
+  width: 9em;
+}
+
+.header p {
+  font-weight: 500;
+}
+
+.expense {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #f6f5fc;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

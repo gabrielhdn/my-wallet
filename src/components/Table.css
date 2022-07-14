@@ -1,0 +1,57 @@
+.table {
+  border-collapse: collapse;
+  width: 90%;
+  font-size: 0.95em;
+}
+
+.table thead th {
+  width: 12.5em;
+  height: 3em;
+  color: #192e4d;
+  border: 2px solid #192e4d;
+}
+
+.table tbody tr {
+  border: 1px solid #67768d;
+  transition: 0.2s ease-in-out;
+}
+
+.table tbody tr:hover {
+  background-color: #d8e6fa;
+}
+
+.table tbody tr:last-child {
+  border-bottom: 2px solid #192e4d;
+}
+
+.table tbody td {
+  width: 12.5em;
+  height: 6em;
+  padding: 10px 5px;
+  color: #0a1629;
+  text-align: center;
+  word-wrap: break-word;
+  border: none;
+}
+
+.edit-button {
+  margin-right: 6px;
+  cursor: pointer;
+  margin-top: 6px;
+  color: #4fc544;
+}
+
+.remove-button {
+  margin-left: 6px;
+  cursor: pointer;
+  margin-top: 6px;
+  color: #df4b57;
+}
+
+.edit-button:hover {
+  color: #27af1b;
+}
+
+.remove-button:hover {
+  color: #d12634;
+}
