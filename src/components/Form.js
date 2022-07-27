@@ -98,9 +98,9 @@ class Form extends React.Component {
             value={ method }
             onChange={ this.handleChange }
           >
-            <option value="Dinheiro">Cash</option>
-            <option value="Cartão de crédito">Credit card</option>
-            <option value="Cartão de débito">Debit card</option>
+            <option value="Cash">Cash</option>
+            <option value="Credit card">Credit card</option>
+            <option value="Debit card">Debit card</option>
           </select>
         </label>
         <label htmlFor="tag" className="form-label">
