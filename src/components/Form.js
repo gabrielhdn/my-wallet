@@ -45,7 +45,7 @@ class Form extends React.Component {
     const { value, description, currency, method, tag } = this.state;
     const categories = ['Food', 'Leisure', 'Work', 'Transport', 'Health'];
     return (
-      <form className="wallet-form">
+      <form className={editor ? 'wallet-form cl' : 'wallet-form'}>
         <label htmlFor="value" className="form-label">
           Value
           <input
